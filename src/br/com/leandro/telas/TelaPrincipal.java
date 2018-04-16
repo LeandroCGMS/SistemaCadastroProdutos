@@ -33,6 +33,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Cadastro de Produtos");
+        setLocationByPlatform(true);
         setPreferredSize(new java.awt.Dimension(600, 400));
 
         jButton1.setText("Sair");
